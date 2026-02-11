@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FTSE 100 Tracker – BGEO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <h1>FTSE 100 Tracker – BGEO</h1>
+        <p>
+          Live market snapshot of FTSE 100 constituents ranked by market cap,
+          plus BGEO inserted to show its potential ranking.
+        </p>
+      </header>
+
+      <section class="stats" id="stats" aria-live="polite">
+        <article class="stat-card">
+          <h2>Total companies tracked</h2>
+          <p id="totalCompanies">-</p>
+        </article>
+        <article class="stat-card highlight">
+          <h2>BGEO projected rank</h2>
+          <p id="bgeoRank">-</p>
+        </article>
+        <article class="stat-card">
+          <h2>BGEO market cap</h2>
+          <p id="bgeoCap">-</p>
+        </article>
+      </section>
+
+      <section class="table-wrap">
+        <div class="table-header">
+          <h2>Ranked by market cap</h2>
+          <button id="refreshButton" type="button">Refresh quotes</button>
+        </div>
+        <p id="statusMessage">Loading FTSE 100 + BGEO data...</p>
+        <div class="table-scroller">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Company</th>
+                <th>Ticker</th>
+                <th>Price</th>
+                <th>Market Cap</th>
+              </tr>
+            </thead>
+            <tbody id="constituentsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
