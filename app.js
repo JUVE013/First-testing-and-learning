@@ -127,13 +127,6 @@ function renderTable(companies) {
 companies.forEach((c, index) => {
   const tr = document.createElement('tr');
 
-  const isBGEO =
-    normalizeTicker(c.ticker) === normalizeTicker(BGEO_CANDIDATE.ticker);
-
-  if (isBGEO) {
-    tr.classList.add('bgeo-row');
-  }
-
     const rank = index + 1;
     const notes = c.addedCandidate ? 'Added candidate' : '';
 
