@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FTSE 100 Tracker – BGEO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>FTSE 100 Tracker – BGEO</h1>
+        <p>
+          Current FTSE 100 constituents ranked by market cap, with BGEO added to show its
+          projected ranking.
+        </p>
+      </header>
+
+      <section class="summary" aria-live="polite">
+        <article class="card">
+          <h2>Total companies</h2>
+          <p id="totalCount">-</p>
+        </article>
+        <article class="card card--accent">
+          <h2>BGEO projected rank</h2>
+          <p id="bgeoRank">-</p>
+        </article>
+        <article class="card">
+          <h2>BGEO market cap</h2>
+          <p id="bgeoCap">-</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel__top">
+          <h2>Ranked constituents</h2>
+          <button id="refreshBtn" type="button">Refresh Data</button>
+        </div>
+        <p id="status">Loading data...</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Company</th>
+                <th>Ticker</th>
+                <th>Price</th>
+                <th>Market cap</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
