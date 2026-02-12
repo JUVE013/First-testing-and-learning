@@ -132,6 +132,7 @@ companies.forEach((c, index) => {
 
   if (isBGEO) {
     tr.classList.add('bgeo-row');
+  }
 
     const rank = index + 1;
     const notes = c.addedCandidate ? 'Added candidate' : '';
