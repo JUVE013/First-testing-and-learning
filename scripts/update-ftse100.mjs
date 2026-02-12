@@ -72,7 +72,7 @@ async function scrapeConstituents() {
       .filter((c) => c.name);
 
     if (companies.length < 90) {
-      console.warn(`Warning: Expected ~100 constituents, got ${rows.length}. Continuing with partial data (likely pagination).`);
+      console.warn(`Warning: Expected ~100 constituents, got ${companies.length}. Continuing with partial data (likely pagination).`);
     }
 
     return {
