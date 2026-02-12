@@ -19,20 +19,104 @@ function pickCell(row, map, keys) {
   }
   return null;
 }
+async function scrapeTableOnCurrentPage(page) {
+  const parsed = await page.evaluate(() => {
+    const table = document.querySelector('table');
+    if (!table) return { headers: [], rows: [] };
+
+    const headers = Array.from(table.querySelectorAll('thead th')).map((th) =>
+      (th.textContent || '').trim().toLowerCase(),
+    );
+
+    const rows = Array.from(table.querySelectorAll('tbody tr')).map((tr) =>
+      Array.from(tr.querySelectorAll('td')).map((td) => (td.textContent || '').trim()),
+    );
+
+    return { headers, rows };
+  });
+
+  const map = {};
+  parsed.headers.forEach((header, idx) => {
+    if (header.includes('company')) map.name = idx;
+    if (header.includes('ticker') || header.includes('epic')) map.ticker = idx;
+    if (header.includes('price')) map.price = idx;
+    if (header.includes('market cap')) map.marketCap = idx;
+  });
+
+  return { parsed, map };
+}
 
 async function scrapeConstituents() {
+  const URLS = [
+    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table',
+    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=2',
+    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=3',
+    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=4',
+    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=5',
+  ];
+
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
   try {
-    await page.goto(URL, { waitUntil: 'networkidle', timeout: 120000 });
-    await page.waitForTimeout(5000);
+    const updatedAt = new Date().toISOString();
+    const byKey = new Map(); // dedupe
 
-    const parsed = await page.evaluate(() => {
-      const table = document.querySelector('table');
-      if (!table) {
-        return { headers: [], rows: [] };
+    for (const url of URLS) {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
+
+      // Give JS time to render the table
+      await page.waitForTimeout(5000);
+
+      // If table is late, wait a bit more
+      // (we keep it simple vs complex selectors)
+      const { parsed, map } = await scrapeTableOnCurrentPage(page);
+
+      const companies = parsed.rows
+        .map((row) => {
+          const name = pickCell(row, map, ['name']) || row[0] || null;
+          const ticker = pickCell(row, map, ['ticker']);
+          const priceRaw = pickCell(row, map, ['price']);
+          const marketCapRaw = pickCell(row, map, ['marketCap']);
+
+          return {
+            name,
+            ticker: ticker || null,
+            price: cleanNumber(priceRaw),
+            marketCap: cleanNumber(marketCapRaw),
+            updatedAt,
+          };
+        })
+        .filter((c) => c.name);
+
+      // Add into map (dedupe)
+      for (const c of companies) {
+        const key = `${(c.ticker || '').toUpperCase()}|${c.name.toUpperCase()}`;
+        if (!byKey.has(key)) byKey.set(key, c);
       }
+
+      console.log(`Scraped ${companies.length} rows from ${url}`);
+    }
+
+    const all = Array.from(byKey.values());
+
+    if (all.length < 90) {
+      console.warn(
+        `Warning: Expected ~100 constituents, got ${all.length}. Continuing with partial data (pagination/rendering may have limited results).`,
+      );
+    }
+
+    return {
+      source: 'https://www.londonstockexchange.com/indices/ftse-100/constituents/table',
+      updatedAt,
+      companies: all,
+    };
+  } finally {
+    await browser.close();
+  }
+}
+
+
 
       const headers = Array.from(table.querySelectorAll('thead th')).map((th) =>
         (th.textContent || '').trim().toLowerCase(),
