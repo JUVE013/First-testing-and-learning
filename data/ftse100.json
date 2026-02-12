@@ -1,0 +1,706 @@
+{
+  "source": "Initial seeded snapshot (workflow will overwrite from LSE)",
+  "updatedAt": "2026-02-12T05:47:19Z",
+  "companies": [
+    {
+      "name": "AstraZeneca",
+      "ticker": "00C1.L",
+      "marketCap": 218200000000,
+      "price": 102.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Shell",
+      "ticker": "00C2.L",
+      "marketCap": 216400000000,
+      "price": 104.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "HSBC Holdings",
+      "ticker": "00C3.L",
+      "marketCap": 214600000000,
+      "price": 106.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Unilever",
+      "ticker": "00C4.L",
+      "marketCap": 212800000000,
+      "price": 108.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "BP",
+      "ticker": "00C5.L",
+      "marketCap": 211000000000,
+      "price": 110.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "RELX",
+      "ticker": "00C6.L",
+      "marketCap": 209200000000,
+      "price": 112.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Diageo",
+      "ticker": "00C7.L",
+      "marketCap": 207400000000,
+      "price": 114.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Rio Tinto",
+      "ticker": "00C8.L",
+      "marketCap": 205600000000,
+      "price": 116.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Glencore",
+      "ticker": "00C9.L",
+      "marketCap": 203800000000,
+      "price": 118.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Lloyds Banking Group",
+      "ticker": "0C10.L",
+      "marketCap": 202000000000,
+      "price": 121.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Barclays",
+      "ticker": "0C11.L",
+      "marketCap": 200200000000,
+      "price": 123.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "NatWest Group",
+      "ticker": "0C12.L",
+      "marketCap": 198400000000,
+      "price": 125.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Tesco",
+      "ticker": "0C13.L",
+      "marketCap": 196600000000,
+      "price": 127.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Vodafone Group",
+      "ticker": "0C14.L",
+      "marketCap": 194800000000,
+      "price": 129.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "GSK",
+      "ticker": "0C15.L",
+      "marketCap": 193000000000,
+      "price": 131.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "BAE Systems",
+      "ticker": "0C16.L",
+      "marketCap": 191200000000,
+      "price": 133.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Aviva",
+      "ticker": "0C17.L",
+      "marketCap": 189400000000,
+      "price": 135.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Prudential",
+      "ticker": "0C18.L",
+      "marketCap": 187600000000,
+      "price": 137.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Legal & General",
+      "ticker": "0C19.L",
+      "marketCap": 185800000000,
+      "price": 139.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Persimmon",
+      "ticker": "0C20.L",
+      "marketCap": 184000000000,
+      "price": 142.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "SSE",
+      "ticker": "0C21.L",
+      "marketCap": 182200000000,
+      "price": 144.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Imperial Brands",
+      "ticker": "0C22.L",
+      "marketCap": 180400000000,
+      "price": 146.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "British American Tobacco",
+      "ticker": "0C23.L",
+      "marketCap": 178600000000,
+      "price": 148.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Rolls-Royce Holdings",
+      "ticker": "0C24.L",
+      "marketCap": 176800000000,
+      "price": 150.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Experian",
+      "ticker": "0C25.L",
+      "marketCap": 175000000000,
+      "price": 152.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Compass Group",
+      "ticker": "0C26.L",
+      "marketCap": 173200000000,
+      "price": 154.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Anglo American",
+      "ticker": "0C27.L",
+      "marketCap": 171400000000,
+      "price": 156.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Segro",
+      "ticker": "0C28.L",
+      "marketCap": 169600000000,
+      "price": 158.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Rentokil Initial",
+      "ticker": "0C29.L",
+      "marketCap": 167800000000,
+      "price": 160.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Auto Trader Group",
+      "ticker": "0C30.L",
+      "marketCap": 166000000000,
+      "price": 163.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Sage Group",
+      "ticker": "0C31.L",
+      "marketCap": 164200000000,
+      "price": 165.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Smith & Nephew",
+      "ticker": "0C32.L",
+      "marketCap": 162400000000,
+      "price": 167.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Intertek Group",
+      "ticker": "0C33.L",
+      "marketCap": 160600000000,
+      "price": 169.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Bunzl",
+      "ticker": "0C34.L",
+      "marketCap": 158800000000,
+      "price": 171.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Admiral Group",
+      "ticker": "0C35.L",
+      "marketCap": 157000000000,
+      "price": 173.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Croda International",
+      "ticker": "0C36.L",
+      "marketCap": 155200000000,
+      "price": 175.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Fresnillo",
+      "ticker": "0C37.L",
+      "marketCap": 153400000000,
+      "price": 177.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Land Securities",
+      "ticker": "0C38.L",
+      "marketCap": 151600000000,
+      "price": 179.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Burberry",
+      "ticker": "0C39.L",
+      "marketCap": 149800000000,
+      "price": 181.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "M&G",
+      "ticker": "0C40.L",
+      "marketCap": 148000000000,
+      "price": 184.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Pearson",
+      "ticker": "0C41.L",
+      "marketCap": 146200000000,
+      "price": 186.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "JD Sports Fashion",
+      "ticker": "0C42.L",
+      "marketCap": 144400000000,
+      "price": 188.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Flutter Entertainment",
+      "ticker": "0C43.L",
+      "marketCap": 142600000000,
+      "price": 190.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Ocado Group",
+      "ticker": "0C44.L",
+      "marketCap": 140800000000,
+      "price": 192.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Severn Trent",
+      "ticker": "0C45.L",
+      "marketCap": 139000000000,
+      "price": 194.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "United Utilities",
+      "ticker": "0C46.L",
+      "marketCap": 137200000000,
+      "price": 196.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Antofagasta",
+      "ticker": "0C47.L",
+      "marketCap": 135400000000,
+      "price": 198.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Melrose Industries",
+      "ticker": "0C48.L",
+      "marketCap": 133600000000,
+      "price": 200.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Smurfit WestRock",
+      "ticker": "0C49.L",
+      "marketCap": 131800000000,
+      "price": 202.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "Haleon",
+      "ticker": "0C50.L",
+      "marketCap": 130000000000,
+      "price": 205.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 51",
+      "ticker": "0C51.L",
+      "marketCap": 128200000000,
+      "price": 207.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 52",
+      "ticker": "0C52.L",
+      "marketCap": 126400000000,
+      "price": 209.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 53",
+      "ticker": "0C53.L",
+      "marketCap": 124600000000,
+      "price": 211.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 54",
+      "ticker": "0C54.L",
+      "marketCap": 122800000000,
+      "price": 213.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 55",
+      "ticker": "0C55.L",
+      "marketCap": 121000000000,
+      "price": 215.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 56",
+      "ticker": "0C56.L",
+      "marketCap": 119200000000,
+      "price": 217.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 57",
+      "ticker": "0C57.L",
+      "marketCap": 117400000000,
+      "price": 219.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 58",
+      "ticker": "0C58.L",
+      "marketCap": 115600000000,
+      "price": 221.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 59",
+      "ticker": "0C59.L",
+      "marketCap": 113800000000,
+      "price": 223.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 60",
+      "ticker": "0C60.L",
+      "marketCap": 112000000000,
+      "price": 226.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 61",
+      "ticker": "0C61.L",
+      "marketCap": 110200000000,
+      "price": 228.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 62",
+      "ticker": "0C62.L",
+      "marketCap": 108400000000,
+      "price": 230.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 63",
+      "ticker": "0C63.L",
+      "marketCap": 106600000000,
+      "price": 232.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 64",
+      "ticker": "0C64.L",
+      "marketCap": 104800000000,
+      "price": 234.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 65",
+      "ticker": "0C65.L",
+      "marketCap": 103000000000,
+      "price": 236.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 66",
+      "ticker": "0C66.L",
+      "marketCap": 101200000000,
+      "price": 238.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 67",
+      "ticker": "0C67.L",
+      "marketCap": 99400000000,
+      "price": 240.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 68",
+      "ticker": "0C68.L",
+      "marketCap": 97600000000,
+      "price": 242.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 69",
+      "ticker": "0C69.L",
+      "marketCap": 95800000000,
+      "price": 244.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 70",
+      "ticker": "0C70.L",
+      "marketCap": 94000000000,
+      "price": 247.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 71",
+      "ticker": "0C71.L",
+      "marketCap": 92200000000,
+      "price": 249.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 72",
+      "ticker": "0C72.L",
+      "marketCap": 90400000000,
+      "price": 251.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 73",
+      "ticker": "0C73.L",
+      "marketCap": 88600000000,
+      "price": 253.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 74",
+      "ticker": "0C74.L",
+      "marketCap": 86800000000,
+      "price": 255.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 75",
+      "ticker": "0C75.L",
+      "marketCap": 85000000000,
+      "price": 257.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 76",
+      "ticker": "0C76.L",
+      "marketCap": 83200000000,
+      "price": 259.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 77",
+      "ticker": "0C77.L",
+      "marketCap": 81400000000,
+      "price": 261.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 78",
+      "ticker": "0C78.L",
+      "marketCap": 79600000000,
+      "price": 263.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 79",
+      "ticker": "0C79.L",
+      "marketCap": 77800000000,
+      "price": 265.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 80",
+      "ticker": "0C80.L",
+      "marketCap": 76000000000,
+      "price": 268.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 81",
+      "ticker": "0C81.L",
+      "marketCap": 74200000000,
+      "price": 270.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 82",
+      "ticker": "0C82.L",
+      "marketCap": 72400000000,
+      "price": 272.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 83",
+      "ticker": "0C83.L",
+      "marketCap": 70600000000,
+      "price": 274.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 84",
+      "ticker": "0C84.L",
+      "marketCap": 68800000000,
+      "price": 276.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 85",
+      "ticker": "0C85.L",
+      "marketCap": 67000000000,
+      "price": 278.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 86",
+      "ticker": "0C86.L",
+      "marketCap": 65200000000,
+      "price": 280.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 87",
+      "ticker": "0C87.L",
+      "marketCap": 63400000000,
+      "price": 282.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 88",
+      "ticker": "0C88.L",
+      "marketCap": 61600000000,
+      "price": 284.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 89",
+      "ticker": "0C89.L",
+      "marketCap": 59800000000,
+      "price": 286.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 90",
+      "ticker": "0C90.L",
+      "marketCap": 58000000000,
+      "price": 289.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 91",
+      "ticker": "0C91.L",
+      "marketCap": 56200000000,
+      "price": 291.1,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 92",
+      "ticker": "0C92.L",
+      "marketCap": 54400000000,
+      "price": 293.2,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 93",
+      "ticker": "0C93.L",
+      "marketCap": 52600000000,
+      "price": 295.3,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 94",
+      "ticker": "0C94.L",
+      "marketCap": 50800000000,
+      "price": 297.4,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 95",
+      "ticker": "0C95.L",
+      "marketCap": 49000000000,
+      "price": 299.5,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 96",
+      "ticker": "0C96.L",
+      "marketCap": 47200000000,
+      "price": 301.6,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 97",
+      "ticker": "0C97.L",
+      "marketCap": 45400000000,
+      "price": 303.7,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 98",
+      "ticker": "0C98.L",
+      "marketCap": 43600000000,
+      "price": 305.8,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 99",
+      "ticker": "0C99.L",
+      "marketCap": 41800000000,
+      "price": 307.9,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    },
+    {
+      "name": "FTSE Company 100",
+      "ticker": "C100.L",
+      "marketCap": 40000000000,
+      "price": 310.0,
+      "updatedAt": "2026-02-12T05:47:19Z"
+    }
+  ]
+}

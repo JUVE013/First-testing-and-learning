@@ -1,0 +1,40 @@
+name: Update FTSE 100 Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-save playwright
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Update ftse100.json
+        run: node scripts/update-ftse100.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ftse100.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(data): update FTSE 100 snapshot"
+          git push
