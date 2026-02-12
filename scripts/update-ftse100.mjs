@@ -2,7 +2,14 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { chromium } from 'playwright';
 
-const URL = 'https://www.londonstockexchange.com/indices/ftse-100/constituents/table';
+const BASE_URL = 'https://www.londonstockexchange.com/indices/ftse-100/constituents/table';
+const URLS = [
+  BASE_URL,
+  `${BASE_URL}?page=2`,
+  `${BASE_URL}?page=3`,
+  `${BASE_URL}?page=4`,
+  `${BASE_URL}?page=5`,
+];
 
 function cleanNumber(raw) {
   if (!raw) return null;
@@ -19,6 +26,7 @@ function pickCell(row, map, keys) {
   }
   return null;
 }
+
 async function scrapeTableOnCurrentPage(page) {
   const parsed = await page.evaluate(() => {
     const table = document.querySelector('table');
@@ -47,29 +55,17 @@ async function scrapeTableOnCurrentPage(page) {
 }
 
 async function scrapeConstituents() {
-  const URLS = [
-    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table',
-    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=2',
-    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=3',
-    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=4',
-    'https://www.londonstockexchange.com/indices/ftse-100/constituents/table?page=5',
-  ];
-
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
   try {
     const updatedAt = new Date().toISOString();
-    const byKey = new Map(); // dedupe
+    const byKey = new Map();
 
     for (const url of URLS) {
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
-
-      // Give JS time to render the table
       await page.waitForTimeout(5000);
 
-      // If table is late, wait a bit more
-      // (we keep it simple vs complex selectors)
       const { parsed, map } = await scrapeTableOnCurrentPage(page);
 
       const companies = parsed.rows
@@ -89,7 +85,6 @@ async function scrapeConstituents() {
         })
         .filter((c) => c.name);
 
-      // Add into map (dedupe)
       for (const c of companies) {
         const key = `${(c.ticker || '').toUpperCase()}|${c.name.toUpperCase()}`;
         if (!byKey.has(key)) byKey.set(key, c);
@@ -107,62 +102,9 @@ async function scrapeConstituents() {
     }
 
     return {
-      source: 'https://www.londonstockexchange.com/indices/ftse-100/constituents/table',
+      source: BASE_URL,
       updatedAt,
       companies: all,
-    };
-  } finally {
-    await browser.close();
-  }
-}
-
-
-
-      const headers = Array.from(table.querySelectorAll('thead th')).map((th) =>
-        (th.textContent || '').trim().toLowerCase(),
-      );
-
-      const rows = Array.from(table.querySelectorAll('tbody tr')).map((tr) =>
-        Array.from(tr.querySelectorAll('td')).map((td) => (td.textContent || '').trim()),
-      );
-
-      return { headers, rows };
-    });
-
-    const map = {};
-    parsed.headers.forEach((header, idx) => {
-      if (header.includes('company')) map.name = idx;
-      if (header.includes('ticker') || header.includes('epic')) map.ticker = idx;
-      if (header.includes('price')) map.price = idx;
-      if (header.includes('market cap')) map.marketCap = idx;
-    });
-
-    const updatedAt = new Date().toISOString();
-    const companies = parsed.rows
-      .map((row) => {
-        const name = pickCell(row, map, ['name']) || row[0] || null;
-        const ticker = pickCell(row, map, ['ticker']);
-        const priceRaw = pickCell(row, map, ['price']);
-        const marketCapRaw = pickCell(row, map, ['marketCap']);
-
-        return {
-          name,
-          ticker: ticker || null,
-          price: cleanNumber(priceRaw),
-          marketCap: cleanNumber(marketCapRaw),
-          updatedAt,
-        };
-      })
-      .filter((c) => c.name);
-
-    if (companies.length < 90) {
-      console.warn(`Warning: Expected ~100 constituents, got ${companies.length}. Continuing with partial data (likely pagination).`);
-    }
-
-    return {
-      source: URL,
-      updatedAt,
-      companies,
     };
   } finally {
     await browser.close();
@@ -172,6 +114,7 @@ async function scrapeConstituents() {
 async function main() {
   const data = await scrapeConstituents();
   const outPath = path.join(process.cwd(), 'data', 'ftse100.json');
+  await fs.mkdir(path.dirname(outPath), { recursive: true });
   await fs.writeFile(outPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
   console.log(`Wrote ${data.companies.length} rows to ${outPath}`);
 }
