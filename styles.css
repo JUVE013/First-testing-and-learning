@@ -1,3 +1,8 @@
+/* FORCE NORMAL TEXT FONT (fixes icon/symbol font issue) */
+html, body, button, input, select, textarea, table, th, td, div, span, p, h1, h2, h3, h4, h5, h6 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-variant-ligatures: none !important;
+}
 :root {
   color-scheme: light;
   --bg: #0f172a;
