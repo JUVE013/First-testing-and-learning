@@ -106,4 +106,94 @@ function injectBGEO(companies) {
   if (!tickers.has(normalizeTicker(BGEO_CANDIDATE.ticker))) {
     companies.push({
       ...BGEO_CANDIDATE,
-      price: nu
+      price: null,
+      marketCap: null,
+      updatedAt: new Date().toISOString(),
+      addedCandidate: true,
+    });
+  }
+  return companies;
+}
+
+function sortByMarketCap(companies) {
+  // Put known market caps first, highest to lowest; nulls go to bottom.
+  return [...companies].sort((a, b) => {
+    const am = Number.isFinite(a.marketCap) ? a.marketCap : -Infinity;
+    const bm = Number.isFinite(b.marketCap) ? b.marketCap : -Infinity;
+    return bm - am;
+  });
+}
+
+function renderTable(companies) {
+  const tbody = findTableBody() || ensureTable();
+  tbody.innerHTML = '';
+
+  companies.forEach((c, idx) => {
+    const tr = document.createElement('tr');
+    const rank = idx + 1;
+    const notes = c.addedCandidate ? 'Added candidate' : '';
+
+    tr.innerHTML = `
+      <td style="padding:8px;border-bottom:1px solid #222;">${rank}</td>
+      <td style="padding:8px;border-bottom:1px solid #222;">${c.name || '—'}</td>
+      <td style="padding:8px;border-bottom:1px solid #222;">${c.ticker || '—'}</td>
+      <td style="padding:8px;border-bottom:1px solid #222;text-align:right;">${fmtNumber(c.price)}</td>
+      <td style="padding:8px;border-bottom:1px solid #222;text-align:right;">${fmtMoney(c.marketCap)}</td>
+      <td style="padding:8px;border-bottom:1px solid #222;">${notes}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function computeBGEO(companiesSorted) {
+  const idx = companiesSorted.findIndex(
+    (c) => normalizeTicker(c.ticker) === normalizeTicker(BGEO_CANDIDATE.ticker),
+  );
+  if (idx === -1) return null;
+  const c = companiesSorted[idx];
+  return { rank: idx + 1, marketCap: c.marketCap };
+}
+
+async function main() {
+  try {
+    setStatus('Loading FTSE snapshot…');
+
+    const snapshot = await loadSnapshot();
+    const updatedAt = snapshot.updatedAt || snapshot.companies?.[0]?.updatedAt || null;
+
+    let companies = Array.isArray(snapshot.companies) ? snapshot.companies : [];
+    companies = injectBGEO(companies);
+    const sorted = sortByMarketCap(companies);
+
+    renderTable(sorted);
+
+    setCardValue('total', String(sorted.length));
+
+    const bgeo = computeBGEO(sorted);
+    if (bgeo) {
+      setCardValue('bgeoRank', String(bgeo.rank));
+      setCardValue('bgeoMcap', fmtMoney(bgeo.marketCap));
+    }
+
+    setStatus(
+      updatedAt
+        ? `Loaded from data/ftse100.json (updated ${updatedAt})`
+        : 'Loaded from data/ftse100.json',
+    );
+
+    // If your page has a button with text "Refresh quotes", we can reload on click.
+    const refreshBtn =
+      document.querySelector('button#refresh') ||
+      Array.from(document.querySelectorAll('button')).find((b) =>
+        (b.textContent || '').toLowerCase().includes('refresh'),
+      );
+    if (refreshBtn) {
+      refreshBtn.addEventListener('click', () => window.location.reload());
+    }
+  } catch (err) {
+    console.error(err);
+    setStatus(`Failed to load snapshot. Using fallback message. (${err.message})`);
+  }
+}
+
+main();
