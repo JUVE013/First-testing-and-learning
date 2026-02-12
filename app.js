@@ -156,10 +156,6 @@ async function main() {
       : [];
 
     companies = injectBGEO(companies);
-price: null,
-marketCap: null,
-updatedAt: new Date().toISOString(),
-addedCandidate: true,
 
     const sorted = sortByMarketCap(companies);
 
