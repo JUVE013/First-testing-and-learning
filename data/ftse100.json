@@ -1,706 +1,692 @@
 {
   "source": "https://www.londonstockexchange.com/indices/ftse-100/constituents/table",
-  "updatedAt": "2026-06-26T06:07:23.514Z",
+  "updatedAt": "2026-06-26T09:50:52.115Z",
   "companies": [
     {
-      "name": "WTB",
+      "name": "BATS",
       "ticker": null,
-      "price": 2527,
-      "marketCap": 4238.83,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "WEIR",
-      "ticker": null,
-      "price": 2388,
-      "marketCap": 6199.54,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "VOD",
-      "ticker": null,
-      "price": 104.95,
-      "marketCap": 24166.56,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "UU.",
-      "ticker": null,
-      "price": 1299,
-      "marketCap": 9649.8,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ULVR",
-      "ticker": null,
-      "price": 4579.5,
-      "marketCap": 98665.39,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "TSCO",
-      "ticker": null,
-      "price": 455,
-      "marketCap": 28676.55,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SVT",
-      "ticker": null,
-      "price": 2958,
-      "marketCap": 8925.78,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "STJ",
-      "ticker": null,
-      "price": 1192.5,
-      "marketCap": 6171.05,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "STAN",
-      "ticker": null,
-      "price": 2063,
-      "marketCap": 45212.4,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SSE",
-      "ticker": null,
-      "price": 2419,
-      "marketCap": 29322.97,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SPX",
-      "ticker": null,
-      "price": 6985,
-      "marketCap": 5156.75,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SN.",
-      "ticker": null,
-      "price": 1146,
-      "marketCap": 9700.4,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SMT",
-      "ticker": null,
-      "price": 1402.5,
-      "marketCap": 15460.83,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SMIN",
-      "ticker": null,
-      "price": 2593,
-      "marketCap": 7800.56,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SHEL",
-      "ticker": null,
-      "price": 2925.5,
-      "marketCap": 163031.02,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SGRO",
-      "ticker": null,
-      "price": 880,
-      "marketCap": 11914.57,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SGE",
-      "ticker": null,
-      "price": 796.2,
-      "marketCap": 7227.36,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SDR",
-      "ticker": null,
-      "price": 585,
-      "marketCap": 9422.66,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SDLF",
-      "ticker": null,
-      "price": 832,
-      "marketCap": 8375.37,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "SBRY",
-      "ticker": null,
-      "price": 310.9,
-      "marketCap": 6955.33,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "RTO",
-      "ticker": null,
-      "price": 435.2,
-      "marketCap": 10993.33,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "RR.",
-      "ticker": null,
-      "price": 1432,
-      "marketCap": 119675.71,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "RKT",
-      "ticker": null,
-      "price": 4827,
-      "marketCap": 30653.81,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "RIO",
-      "ticker": null,
-      "price": 7186,
-      "marketCap": 90187.62,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "REL",
-      "ticker": null,
-      "price": 2369,
-      "marketCap": 41651.34,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "PSON",
-      "ticker": null,
-      "price": 1155,
-      "marketCap": 6943.17,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "PSN",
-      "ticker": null,
-      "price": 1128.5,
-      "marketCap": 3624.65,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "PSH",
-      "ticker": null,
-      "price": 3782,
-      "marketCap": 6596.67,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "PRU",
-      "ticker": null,
-      "price": 1011.5,
-      "marketCap": 25418.97,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "PCT",
-      "ticker": null,
-      "price": 708,
-      "marketCap": 7846.54,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "NXT",
-      "ticker": null,
-      "price": 14715,
-      "marketCap": 17607.5,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "NWG",
-      "ticker": null,
-      "price": 661,
-      "marketCap": 52677.84,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "NG.",
-      "ticker": null,
-      "price": 1253,
-      "marketCap": 62345.65,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "MTLN",
-      "ticker": null,
-      "price": 40.96,
-      "marketCap": 5061.07,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "MRO",
-      "ticker": null,
-      "price": 474.5,
-      "marketCap": 5913.55,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "MNG",
-      "ticker": null,
-      "price": 335.2,
-      "marketCap": 8078.21,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "MKS",
-      "ticker": null,
-      "price": 378.1,
-      "marketCap": 7813.18,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "LSEG",
-      "ticker": null,
-      "price": 8028,
-      "marketCap": 39201.4,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "LMP",
-      "ticker": null,
-      "price": 189.2,
-      "marketCap": 4436.33,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "LLOY",
-      "ticker": null,
-      "price": 110.05,
-      "marketCap": 64135.73,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "LGEN",
-      "ticker": null,
-      "price": 287.2,
-      "marketCap": 15928.13,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "LAND",
-      "ticker": null,
-      "price": 657,
-      "marketCap": 4894.94,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "KGF",
-      "ticker": null,
-      "price": 293.2,
-      "marketCap": 4891.39,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "JD.",
-      "ticker": null,
-      "price": 85.26,
-      "marketCap": 4100.61,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ITRK",
-      "ticker": null,
-      "price": 5790,
-      "marketCap": 8912.65,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "INVP",
-      "ticker": null,
-      "price": 621.5,
-      "marketCap": 3974.56,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "INF",
-      "ticker": null,
-      "price": 892.8,
-      "marketCap": 11271.56,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "IMI",
-      "ticker": null,
-      "price": 2958,
-      "marketCap": 7067.01,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 4793,
+      "marketCap": 101754.45,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "IMB",
       "ticker": null,
-      "price": 2765,
+      "price": 2813,
       "marketCap": 21303.51,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "TSCO",
+      "ticker": null,
+      "price": 461.9,
+      "marketCap": 28676.55,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SBRY",
+      "ticker": null,
+      "price": 315.2,
+      "marketCap": 6955.33,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "III",
       "ticker": null,
-      "price": 2534,
+      "price": 2565,
       "marketCap": 25718.96,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "IHG",
-      "ticker": null,
-      "price": 172.65,
-      "marketCap": 19507.06,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "IGG",
-      "ticker": null,
-      "price": 1858,
-      "marketCap": 6148.89,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ICG",
-      "ticker": null,
-      "price": 1670,
-      "marketCap": 4691.56,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "IAG",
-      "ticker": null,
-      "price": 488,
-      "marketCap": 21651.48,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "HWDN",
-      "ticker": null,
-      "price": 867.5,
-      "marketCap": 4779.2,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "HSX",
-      "ticker": null,
-      "price": 1861,
-      "marketCap": 5972.74,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "HSBA",
-      "ticker": null,
-      "price": 1445.4,
-      "marketCap": 248371.23,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "HLN",
-      "ticker": null,
-      "price": 348.2,
-      "marketCap": 30696.88,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "HLMA",
-      "ticker": null,
-      "price": 3934,
-      "marketCap": 14935.25,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "GSK",
-      "ticker": null,
-      "price": 1983.5,
-      "marketCap": 80261.14,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "GLEN",
-      "ticker": null,
-      "price": 521.2,
-      "marketCap": 61164.67,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "GAW",
-      "ticker": null,
-      "price": 21700,
-      "marketCap": 7170.62,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "FRES",
-      "ticker": null,
-      "price": 2817,
-      "marketCap": 20758.29,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "FCIT",
-      "ticker": null,
-      "price": 345.4,
-      "marketCap": 6510.82,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "EXPN",
-      "ticker": null,
-      "price": 2505,
-      "marketCap": 22371.17,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ENT",
-      "ticker": null,
-      "price": 569.6,
-      "marketCap": 3644.92,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "EDV",
-      "ticker": null,
-      "price": 3743,
-      "marketCap": 9045.98,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "DPLM",
-      "ticker": null,
-      "price": 7150,
-      "marketCap": 9603.69,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "DGE",
-      "ticker": null,
-      "price": 1562,
-      "marketCap": 34779.49,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "DCC",
-      "ticker": null,
-      "price": 6235,
-      "marketCap": 5326.19,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CTEC",
-      "ticker": null,
-      "price": 211.8,
-      "marketCap": 4140.38,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CRDA",
-      "ticker": null,
-      "price": 3175,
-      "marketCap": 4433.43,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CPG",
-      "ticker": null,
-      "price": 32.22,
-      "marketCap": 41488.96,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CNA",
-      "ticker": null,
-      "price": 177,
-      "marketCap": 8176.32,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CCH",
-      "ticker": null,
-      "price": 4760,
-      "marketCap": 17348.51,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CCEP",
-      "ticker": null,
-      "price": 7550,
-      "marketCap": 33462.93,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "CCC",
-      "ticker": null,
-      "price": 4248,
-      "marketCap": 4513.24,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BTRW",
-      "ticker": null,
-      "price": 294,
-      "marketCap": 4146.93,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BT.A",
-      "ticker": null,
-      "price": 191.85,
-      "marketCap": 19122.92,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "BRBY",
       "ticker": null,
-      "price": 1083,
+      "price": 1095.5,
       "marketCap": 3909.72,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
-      "name": "BP.",
+      "name": "BBOX",
       "ticker": null,
-      "price": 480.85,
-      "marketCap": 75529.91,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BNZL",
-      "ticker": null,
-      "price": 2652,
-      "marketCap": 8599.61,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 162.6,
+      "marketCap": 4375.77,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "BLND",
       "ticker": null,
-      "price": 417.6,
+      "price": 420.8,
       "marketCap": 4277.94,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
-      "name": "BGEO",
+      "name": "DGE",
       "ticker": null,
-      "price": 11000,
-      "marketCap": 4742.7,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 1573.5,
+      "marketCap": 34779.49,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CCH",
+      "ticker": null,
+      "price": 4794,
+      "marketCap": 17348.51,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ULVR",
+      "ticker": null,
+      "price": 4610,
+      "marketCap": 98665.39,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ADM",
+      "ticker": null,
+      "price": 3480,
+      "marketCap": 10598.14,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "JD.",
+      "ticker": null,
+      "price": 85.72,
+      "marketCap": 4100.61,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "LMP",
+      "ticker": null,
+      "price": 190.2,
+      "marketCap": 4436.33,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "UU.",
+      "ticker": null,
+      "price": 1305,
+      "marketCap": 9649.8,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "RKT",
+      "ticker": null,
+      "price": 4848,
+      "marketCap": 30653.81,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "NG.",
+      "ticker": null,
+      "price": 1258,
+      "marketCap": 62345.65,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BTRW",
+      "ticker": null,
+      "price": 295,
+      "marketCap": 4146.93,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SDLF",
+      "ticker": null,
+      "price": 834.5,
+      "marketCap": 8375.37,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "HWDN",
+      "ticker": null,
+      "price": 870,
+      "marketCap": 4779.2,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SVT",
+      "ticker": null,
+      "price": 2966,
+      "marketCap": 8925.78,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ITRK",
+      "ticker": null,
+      "price": 5805,
+      "marketCap": 8912.65,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "STJ",
+      "ticker": null,
+      "price": 1195.5,
+      "marketCap": 6171.05,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BT.A",
+      "ticker": null,
+      "price": 192.3,
+      "marketCap": 19122.92,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BNZL",
+      "ticker": null,
+      "price": 2658,
+      "marketCap": 8599.61,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CCEP",
+      "ticker": null,
+      "price": 7565,
+      "marketCap": 33462.93,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CNA",
+      "ticker": null,
+      "price": 177.35,
+      "marketCap": 8176.32,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "LAND",
+      "ticker": null,
+      "price": 658,
+      "marketCap": 4894.94,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "NXT",
+      "ticker": null,
+      "price": 14735,
+      "marketCap": 17607.5,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SDR",
+      "ticker": null,
+      "price": 585.5,
+      "marketCap": 9422.66,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "AV.",
+      "ticker": null,
+      "price": 646.6,
+      "marketCap": 19398.71,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "BEZ",
       "ticker": null,
       "price": 1284.5,
       "marketCap": 7726.63,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
-      "name": "BBOX",
+      "name": "HLN",
       "ticker": null,
-      "price": 161.2,
-      "marketCap": 4375.77,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BATS",
-      "ticker": null,
-      "price": 4698,
-      "marketCap": 101754.45,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BARC",
-      "ticker": null,
-      "price": 521.3,
-      "marketCap": 70455.05,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BAB",
-      "ticker": null,
-      "price": 985,
-      "marketCap": 4830.89,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "BA.",
-      "ticker": null,
-      "price": 1792,
-      "marketCap": 53876.58,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "AZN",
-      "ticker": null,
-      "price": 14062,
-      "marketCap": 218102.99,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "AV.",
-      "ticker": null,
-      "price": 646.2,
-      "marketCap": 19398.71,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "AUTO",
-      "ticker": null,
-      "price": 487.3,
-      "marketCap": 3851.95,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ANTO",
-      "ticker": null,
-      "price": 3793,
-      "marketCap": 37393.54,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ALW",
-      "ticker": null,
-      "price": 1337,
-      "marketCap": 4985.46,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
-    },
-    {
-      "name": "ADM",
-      "ticker": null,
-      "price": 3460,
-      "marketCap": 10598.14,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 348.1,
+      "marketCap": 30696.88,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "ABF",
       "ticker": null,
-      "price": 1978.5,
+      "price": 1977,
       "marketCap": 13924.21,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
-      "name": "ABDN",
+      "name": "DCC",
       "ticker": null,
-      "price": 240.4,
-      "marketCap": 4425.15,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 6230,
+      "marketCap": 5326.19,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
-      "name": "AAL",
+      "name": "LGEN",
       "ticker": null,
-      "price": 3702,
-      "marketCap": 43611.42,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "price": 286.9,
+      "marketCap": 15928.13,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "PSON",
+      "ticker": null,
+      "price": 1153.5,
+      "marketCap": 6943.17,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "KGF",
+      "ticker": null,
+      "price": 292.8,
+      "marketCap": 4891.39,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "VOD",
+      "ticker": null,
+      "price": 104.75,
+      "marketCap": 24166.56,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "LLOY",
+      "ticker": null,
+      "price": 109.7,
+      "marketCap": 64135.73,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CPG",
+      "ticker": null,
+      "price": 32.11,
+      "marketCap": 41488.96,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "GAW",
+      "ticker": null,
+      "price": 21620,
+      "marketCap": 7170.62,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "PSN",
+      "ticker": null,
+      "price": 1123.5,
+      "marketCap": 3624.65,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "AUTO",
+      "ticker": null,
+      "price": 485.1,
+      "marketCap": 3851.95,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "MNG",
+      "ticker": null,
+      "price": 333.6,
+      "marketCap": 8078.21,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "HSX",
+      "ticker": null,
+      "price": 1852,
+      "marketCap": 5972.74,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "RIO",
+      "ticker": null,
+      "price": 7151,
+      "marketCap": 90187.62,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "IHG",
+      "ticker": null,
+      "price": 171.8,
+      "marketCap": 19507.06,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SGE",
+      "ticker": null,
+      "price": 792.2,
+      "marketCap": 7227.36,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "MKS",
+      "ticker": null,
+      "price": 375.7,
+      "marketCap": 7813.18,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "IAG",
+      "ticker": null,
+      "price": 484.7,
+      "marketCap": 21651.48,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "FCIT",
+      "ticker": null,
+      "price": 343,
+      "marketCap": 6510.82,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SN.",
+      "ticker": null,
+      "price": 1138,
+      "marketCap": 9700.4,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SSE",
+      "ticker": null,
+      "price": 2402,
+      "marketCap": 29322.97,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "AZN",
+      "ticker": null,
+      "price": 13958,
+      "marketCap": 218102.99,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "PRU",
+      "ticker": null,
+      "price": 1004,
+      "marketCap": 25418.97,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "PSH",
+      "ticker": null,
+      "price": 3750,
+      "marketCap": 6596.67,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "NWG",
+      "ticker": null,
+      "price": 655.4,
+      "marketCap": 52677.84,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SHEL",
+      "ticker": null,
+      "price": 2900,
+      "marketCap": 163031.02,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "RTO",
+      "ticker": null,
+      "price": 430.9,
+      "marketCap": 10993.33,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "MTLN",
+      "ticker": null,
+      "price": 40.54,
+      "marketCap": 5061.07,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ENT",
+      "ticker": null,
+      "price": 563.6,
+      "marketCap": 3644.92,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SMT",
+      "ticker": null,
+      "price": 1387.5,
+      "marketCap": 15460.83,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "IGG",
+      "ticker": null,
+      "price": 1838,
+      "marketCap": 6148.89,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     },
     {
       "name": "AAF",
       "ticker": null,
-      "price": 343,
+      "price": 339.2,
       "marketCap": 12488.67,
-      "updatedAt": "2026-06-26T06:07:23.514Z"
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ALW",
+      "ticker": null,
+      "price": 1322,
+      "marketCap": 4985.46,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "LSEG",
+      "ticker": null,
+      "price": 7936,
+      "marketCap": 39201.4,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "HLMA",
+      "ticker": null,
+      "price": 3888,
+      "marketCap": 14935.25,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "WEIR",
+      "ticker": null,
+      "price": 2360,
+      "marketCap": 6199.54,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "EDV",
+      "ticker": null,
+      "price": 3698,
+      "marketCap": 9045.98,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "INVP",
+      "ticker": null,
+      "price": 614,
+      "marketCap": 3974.56,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CTEC",
+      "ticker": null,
+      "price": 209.2,
+      "marketCap": 4140.38,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SMIN",
+      "ticker": null,
+      "price": 2561,
+      "marketCap": 7800.56,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "INF",
+      "ticker": null,
+      "price": 880.6,
+      "marketCap": 11271.56,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "EXPN",
+      "ticker": null,
+      "price": 2468,
+      "marketCap": 22371.17,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "IMI",
+      "ticker": null,
+      "price": 2914,
+      "marketCap": 7067.01,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "RR.",
+      "ticker": null,
+      "price": 1410.6,
+      "marketCap": 119675.71,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "HSBA",
+      "ticker": null,
+      "price": 1423.4,
+      "marketCap": 248371.23,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BP.",
+      "ticker": null,
+      "price": 473.4,
+      "marketCap": 75529.91,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "SPX",
+      "ticker": null,
+      "price": 6875,
+      "marketCap": 5156.75,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "STAN",
+      "ticker": null,
+      "price": 2028,
+      "marketCap": 45212.4,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "GSK",
+      "ticker": null,
+      "price": 1949,
+      "marketCap": 80261.14,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ABDN",
+      "ticker": null,
+      "price": 236.2,
+      "marketCap": 4425.15,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "FRES",
+      "ticker": null,
+      "price": 2767,
+      "marketCap": 20758.29,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "MRO",
+      "ticker": null,
+      "price": 465.8,
+      "marketCap": 5913.55,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BAB",
+      "ticker": null,
+      "price": 966.2,
+      "marketCap": 4830.89,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BARC",
+      "ticker": null,
+      "price": 511.2,
+      "marketCap": 70455.05,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "GLEN",
+      "ticker": null,
+      "price": 511,
+      "marketCap": 61164.67,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "AAL",
+      "ticker": null,
+      "price": 3628,
+      "marketCap": 43611.42,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CCC",
+      "ticker": null,
+      "price": 4160,
+      "marketCap": 4513.24,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "DPLM",
+      "ticker": null,
+      "price": 6995,
+      "marketCap": 9603.69,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ANTO",
+      "ticker": null,
+      "price": 3706,
+      "marketCap": 37393.54,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "ICG",
+      "ticker": null,
+      "price": 1631,
+      "marketCap": 4691.56,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "REL",
+      "ticker": null,
+      "price": 2311,
+      "marketCap": 41651.34,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "WTB",
+      "ticker": null,
+      "price": 2465,
+      "marketCap": 4238.83,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "PCT",
+      "ticker": null,
+      "price": 689.5,
+      "marketCap": 7846.54,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "BGEO",
+      "ticker": null,
+      "price": 10690,
+      "marketCap": 4742.7,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
+    },
+    {
+      "name": "CRDA",
+      "ticker": null,
+      "price": 3034,
+      "marketCap": 4433.43,
+      "updatedAt": "2026-06-26T09:50:52.115Z"
     }
   ]
 }
